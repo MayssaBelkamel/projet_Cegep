@@ -1,0 +1,81 @@
+﻿@model _4D5_tp2_Mayssa_Belkamel.ViewModel.PaysImageViewModel
+
+@{
+    ViewData["Title"] = "Détails du pays";
+}
+
+<div class="container mt-4">
+    <div class="p-4 rounded shadow pays-background">
+
+        <!-- Titre -->
+        <div class="text-center mb-4">
+            <h1 class="fw-bold text-dark">
+                🌍 @Model.NomsPays
+            </h1>
+        </div>
+
+        <div class="row align-items-center">
+
+            <!-- Image du pays -->
+            <div class="col-md-4 text-center mb-4">
+                <img src="@Model.PhotosPays"
+                     alt="Photo @Model.NomsPays"
+                     class="img-fluid rounded shadow border"
+                     style="max-height:300px; object-fit:cover;" />
+            </div>
+
+            <!-- Informations -->
+            <div class="col-md-8">
+
+                <div class="card border-0 shadow-sm mb-3">
+                    <div class="card-body">
+
+                        <h3 class="mb-4 text-primary fw-bold">
+                            📌 Informations générales
+                        </h3>
+
+                        <table class="table table-clean align-middle">
+
+                            <tr>
+                                <th style="width:35%">🌎 Pays</th>
+                                <td>@Model.NomsPays</td>
+                            </tr>
+
+                            <tr>
+                                <th>📍 Continent</th>
+                                <td>@Model.Continent</td>
+                            </tr>
+
+                            <tr>
+                                <th>📐 Superficie</th>
+                                <td>@Model.Superficie km²</td>
+                            </tr>
+
+                            <tr>
+                                <th>📅 Date d'indépendance</th>
+                                <td>
+                                    @Model.DateIndependance
+                                </td>
+                            </tr>
+
+                        </table>
+
+                    </div>
+                </div>
+
+                <!-- Boutons -->
+                <div class="d-flex gap-3 mt-4">
+
+                  
+
+                    <a asp-action="Index"
+                       class="btn-atlas-outline">
+                        ← Retour à la liste
+                    </a>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>

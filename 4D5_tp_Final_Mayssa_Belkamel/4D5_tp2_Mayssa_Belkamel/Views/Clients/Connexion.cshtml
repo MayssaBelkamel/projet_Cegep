@@ -1,0 +1,48 @@
+﻿@model _4D5_tp2_Mayssa_Belkamel.ViewModel.ConnexionViewModel
+
+<div class="container mt-4">
+
+    <a asp-action="Index" class="text-decoration-none mb-3 d-inline-block">
+        ← Retour à l'index
+    </a>
+
+    <h1 class="text-center fw-bold mb-4">🔐 Connexion</h1>
+
+    <div class="pays-background p-4 rounded shadow-sm">
+
+        <form asp-action="Connexion" class="mx-auto" style="max-width: 450px;">
+
+            <div asp-validation-summary="All" class="text-danger mb-3"></div>
+
+            <div class="mb-3">
+                <label asp-for="Courriel" class="form-label fw-semibold"></label>
+                <input asp-for="Courriel" class="form-control" />
+                <span asp-validation-for="Courriel" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="MotDePasse" class="form-label fw-semibold"></label>
+                <input asp-for="MotDePasse" class="form-control" type="password" />
+                <span asp-validation-for="MotDePasse" class="text-danger"></span>
+            </div>
+
+            <button type="submit" class="btn btn-primary w-100 mt-2">
+                Se connecter
+            </button>
+
+            <div class="text-center mt-3">
+                <a class="text-decoration-none fw-semibold" asp-controller="Clients" asp-action="Inscription">
+                    Pas encore de compte ? S'inscrire
+                </a>
+            </div>
+
+        </form>
+
+    </div>
+
+</div>
+
+@section Scripts {
+    <script src="~/lib/jquery-validation/dist/jquery.validate.min.js"></script>
+    <script src="~/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"></script>
+}

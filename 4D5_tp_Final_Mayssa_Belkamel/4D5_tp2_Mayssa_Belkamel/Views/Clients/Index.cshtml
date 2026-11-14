@@ -1,0 +1,37 @@
+﻿<div class="container mt-5">
+
+    <h1 class="text-center fw-bold mb-4">🌍 Accueil</h1>
+
+    <div class="pays-background p-4 rounded shadow-sm mx-auto" style="max-width: 500px;">
+
+        <p class="text-center fs-5 mb-4">
+            Bonjour <strong>@ViewData["PrenomNom"]</strong> !
+        </p>
+
+        <div class="d-grid gap-3">
+
+            <a asp-controller="Pays" asp-action="Index"
+               class="btn-atlas">
+                Voir la liste des pays
+            </a>
+
+            @if (User.Identity.IsAuthenticated)
+            {
+                <a asp-controller="Clients" asp-action="Deconnexion"
+                   class="btn-atlas-outline">
+                    Déconnexion
+                </a>
+            }
+            else
+            {
+                <a asp-controller="Clients" asp-action="Connexion"
+                   class="btn-atlas-outline">
+                    Connexion
+                </a>
+            }
+
+        </div>
+
+    </div>
+
+</div>

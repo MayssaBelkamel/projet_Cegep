@@ -1,0 +1,627 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\2483601\\Desktop\\4D5_tp_Final_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|c:\\users\\2483601\\desktop\\4d5_tp_final_mayssa_belkamel\\4d5_tp2_mayssa_belkamel\\controllers\\payscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|solutionrelative:controllers\\payscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|c:\\users\\2483601\\desktop\\4d5_tp_final_mayssa_belkamel\\4d5_tp2_mayssa_belkamel\\viewmodel\\detailspaysviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|solutionrelative:viewmodel\\detailspaysviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|c:\\users\\2483601\\desktop\\4d5_tp_final_mayssa_belkamel\\4d5_tp2_mayssa_belkamel\\viewmodel\\paysimageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|solutionrelative:viewmodel\\paysimageviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|c:\\users\\2483601\\desktop\\4d5_tp_final_mayssa_belkamel\\4d5_tp2_mayssa_belkamel\\sql_scripts\\v1_6__performance.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|solutionrelative:sql_scripts\\v1_6__performance.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|c:\\users\\2483601\\desktop\\4d5_tp_final_mayssa_belkamel\\4d5_tp2_mayssa_belkamel\\sql_scripts\\v1_5__traitementdesimages.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|solutionrelative:sql_scripts\\v1_5__traitementdesimages.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|c:\\users\\2483601\\desktop\\4d5_tp_final_mayssa_belkamel\\4d5_tp2_mayssa_belkamel\\views\\pays\\filtreresultat.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|solutionrelative:views\\pays\\filtreresultat.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|c:\\users\\2483601\\desktop\\4d5_tp_final_mayssa_belkamel\\4d5_tp2_mayssa_belkamel\\sql_scripts\\commandes.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|solutionrelative:sql_scripts\\commandes.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|c:\\users\\2483601\\desktop\\4d5_tp_final_mayssa_belkamel\\4d5_tp2_mayssa_belkamel\\sql_scripts\\initialcreate.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|solutionrelative:sql_scripts\\initialcreate.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|c:\\users\\2483601\\desktop\\4d5_tp_final_mayssa_belkamel\\4d5_tp2_mayssa_belkamel\\models\\vwpaysinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|solutionrelative:models\\vwpaysinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|c:\\users\\2483601\\desktop\\4d5_tp_final_mayssa_belkamel\\4d5_tp2_mayssa_belkamel\\sql_scripts\\v1_2__creationvue.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|solutionrelative:sql_scripts\\v1_2__creationvue.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|c:\\users\\2483601\\desktop\\4d5_tp_final_mayssa_belkamel\\4d5_tp2_mayssa_belkamel\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|c:\\users\\2483601\\desktop\\4d5_tp_final_mayssa_belkamel\\4d5_tp2_mayssa_belkamel\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|c:\\users\\2483601\\desktop\\4d5_tp_final_mayssa_belkamel\\4d5_tp2_mayssa_belkamel\\views\\pays\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|solutionrelative:views\\pays\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|c:\\users\\2483601\\desktop\\4d5_tp_final_mayssa_belkamel\\4d5_tp2_mayssa_belkamel\\views\\pays\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|solutionrelative:views\\pays\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|c:\\users\\2483601\\desktop\\4d5_tp_final_mayssa_belkamel\\4d5_tp2_mayssa_belkamel\\views\\pays\\indexvue.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|solutionrelative:views\\pays\\indexvue.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|c:\\users\\2483601\\desktop\\4d5_tp_final_mayssa_belkamel\\4d5_tp2_mayssa_belkamel\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|c:\\users\\2483601\\desktop\\4d5_tp_final_mayssa_belkamel\\4d5_tp2_mayssa_belkamel\\data\\bd4d5_pays_mondecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|solutionrelative:data\\bd4d5_pays_mondecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|c:\\users\\2483601\\desktop\\4d5_tp_final_mayssa_belkamel\\4d5_tp2_mayssa_belkamel\\sql_scripts\\v1_1__insertiondonnees.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|solutionrelative:sql_scripts\\v1_1__insertiondonnees.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|c:\\users\\2483601\\desktop\\4d5_tp_final_mayssa_belkamel\\4d5_tp2_mayssa_belkamel\\sql_scripts\\v1_0__tables.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|solutionrelative:sql_scripts\\v1_0__tables.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|c:\\users\\2483601\\desktop\\4d5_tp_final_mayssa_belkamel\\4d5_tp2_mayssa_belkamel\\sql_scripts\\v1_1_1__tablesfiltres.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|solutionrelative:sql_scripts\\v1_1_1__tablesfiltres.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|c:\\users\\2483601\\desktop\\4d5_tp_final_mayssa_belkamel\\4d5_tp2_mayssa_belkamel\\models\\pay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|solutionrelative:models\\pay.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|c:\\users\\2483601\\desktop\\4d5_tp_final_mayssa_belkamel\\4d5_tp2_mayssa_belkamel\\controllers\\clientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|solutionrelative:controllers\\clientscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|c:\\users\\2483601\\desktop\\4d5_tp_final_mayssa_belkamel\\4d5_tp2_mayssa_belkamel\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|c:\\users\\2483601\\desktop\\4d5_tp_final_mayssa_belkamel\\4d5_tp2_mayssa_belkamel\\views\\clients\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|solutionrelative:views\\clients\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|c:\\users\\2483601\\desktop\\4d5_tp_final_mayssa_belkamel\\4d5_tp2_mayssa_belkamel\\views\\clients\\inscription.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|solutionrelative:views\\clients\\inscription.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|c:\\users\\2483601\\desktop\\4d5_tp_final_mayssa_belkamel\\4d5_tp2_mayssa_belkamel\\views\\pays\\detailspays.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|solutionrelative:views\\pays\\detailspays.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|c:\\users\\2483601\\desktop\\4d5_tp_final_mayssa_belkamel\\4d5_tp2_mayssa_belkamel\\views\\clients\\connexion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|solutionrelative:views\\clients\\connexion.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|c:\\users\\2483601\\desktop\\4d5_tp_final_mayssa_belkamel\\4d5_tp2_mayssa_belkamel\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|c:\\users\\2483601\\desktop\\4d5_tp_final_mayssa_belkamel\\4d5_tp2_mayssa_belkamel\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|c:\\users\\2483601\\desktop\\4d5_tp_final_mayssa_belkamel\\4d5_tp2_mayssa_belkamel\\4d5_tp2_mayssa_belkamel.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|solutionrelative:4d5_tp2_mayssa_belkamel.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|c:\\users\\2483601\\desktop\\4d5_tp_final_mayssa_belkamel\\4d5_tp2_mayssa_belkamel\\viewmodel\\filtrepaysviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|solutionrelative:viewmodel\\filtrepaysviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|c:\\users\\2483601\\desktop\\4d5_tp_final_mayssa_belkamel\\4d5_tp2_mayssa_belkamel\\sql_scripts\\v1_3__utilisateur.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|solutionrelative:sql_scripts\\v1_3__utilisateur.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|c:\\users\\2483601\\desktop\\4d5_tp_final_mayssa_belkamel\\4d5_tp2_mayssa_belkamel\\sql_scripts\\v1_4__procedureinteressante.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|solutionrelative:sql_scripts\\v1_4__procedureinteressante.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|c:\\users\\2483601\\desktop\\4d5_tp_final_mayssa_belkamel\\4d5_tp2_mayssa_belkamel\\models\\paysfiltreresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|solutionrelative:models\\paysfiltreresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|c:\\users\\2483601\\desktop\\4d5_tp_final_mayssa_belkamel\\4d5_tp2_mayssa_belkamel\\viewmodel\\incriptionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|solutionrelative:viewmodel\\incriptionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|c:\\users\\2483601\\desktop\\4d5_tp_final_mayssa_belkamel\\4d5_tp2_mayssa_belkamel\\viewmodel\\connexionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|solutionrelative:viewmodel\\connexionviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|c:\\users\\2483601\\desktop\\4d5_tp_final_mayssa_belkamel\\4d5_tp2_mayssa_belkamel\\views\\pays\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|solutionrelative:views\\pays\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|c:\\users\\2483601\\desktop\\4d5_tp_final_mayssa_belkamel\\4d5_tp2_mayssa_belkamel\\sql_scripts\\initialcreate.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|solutionrelative:sql_scripts\\initialcreate.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|c:\\users\\2483601\\desktop\\4d5_tp_final_mayssa_belkamel\\4d5_tp2_mayssa_belkamel\\sql_scripts\\initialcreate.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame",
+      "RelativeMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|solutionrelative:sql_scripts\\initialcreate.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|ResultFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|c:\\users\\2483601\\desktop\\4d5_tp_final_mayssa_belkamel\\4d5_tp2_mayssa_belkamel\\sql_scripts\\v1_6__performance.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|solutionrelative:sql_scripts\\v1_6__performance.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|c:\\users\\2483601\\desktop\\4d5_tp_final_mayssa_belkamel\\4d5_tp2_mayssa_belkamel\\sql_scripts\\v1_5__traitementdesimages.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{C521BD73-2D16-4C58-A02E-991F48EDE21F}|4D5_tp2_Mayssa_Belkamel.csproj|solutionrelative:sql_scripts\\v1_5__traitementdesimages.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "V1_6__Performance.sql ",
+              "DocumentMoniker": "C:\\Users\\2483601\\Desktop\\4D5_tp_Final_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel\\Sql_Scripts\\V1_6__Performance.sql",
+              "RelativeDocumentMoniker": "Sql_Scripts\\V1_6__Performance.sql",
+              "ToolTip": "C:\\Users\\2483601\\Desktop\\4D5_tp_Final_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel\\Sql_Scripts\\V1_6__Performance.sql",
+              "RelativeToolTip": "Sql_Scripts\\V1_6__Performance.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-05-25T18:31:34.117Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PaysController.cs",
+              "DocumentMoniker": "C:\\Users\\2483601\\Desktop\\4D5_tp_Final_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel\\Controllers\\PaysController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PaysController.cs",
+              "ToolTip": "C:\\Users\\2483601\\Desktop\\4D5_tp_Final_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel\\Controllers\\PaysController.cs",
+              "RelativeToolTip": "Controllers\\PaysController.cs",
+              "ViewState": "AgIAAJ0AAAAAAAAAAAAqwPYAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-05T21:08:40.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\2483601\\Desktop\\4D5_tp_Final_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel\\Views\\Pays\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Pays\\Index.cshtml",
+              "ToolTip": "C:\\Users\\2483601\\Desktop\\4D5_tp_Final_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel\\Views\\Pays\\Index.cshtml",
+              "RelativeToolTip": "Views\\Pays\\Index.cshtml",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAACIAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-16T19:47:50.842Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "PaysImageViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\2483601\\Desktop\\4D5_tp_Final_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel\\ViewModel\\PaysImageViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\PaysImageViewModel.cs",
+              "ToolTip": "C:\\Users\\2483601\\Desktop\\4D5_tp_Final_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel\\ViewModel\\PaysImageViewModel.cs",
+              "RelativeToolTip": "ViewModel\\PaysImageViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-21T13:33:29.284Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DetailsPaysViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\2483601\\Desktop\\4D5_tp_Final_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel\\ViewModel\\DetailsPaysViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\DetailsPaysViewModel.cs",
+              "ToolTip": "C:\\Users\\2483601\\Desktop\\4D5_tp_Final_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel\\ViewModel\\DetailsPaysViewModel.cs",
+              "RelativeToolTip": "ViewModel\\DetailsPaysViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-19T20:57:27.624Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "V1_2__CreationVue.sql",
+              "DocumentMoniker": "C:\\Users\\2483601\\Desktop\\4D5_tp_Final_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel\\Sql_Scripts\\V1_2__CreationVue.sql",
+              "RelativeDocumentMoniker": "Sql_Scripts\\V1_2__CreationVue.sql",
+              "ToolTip": "C:\\Users\\2483601\\Desktop\\4D5_tp_Final_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel\\Sql_Scripts\\V1_2__CreationVue.sql",
+              "RelativeToolTip": "Sql_Scripts\\V1_2__CreationVue.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-05-05T19:46:06.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "VwPaysInfo.cs",
+              "DocumentMoniker": "C:\\Users\\2483601\\Desktop\\4D5_tp_Final_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel\\Models\\VwPaysInfo.cs",
+              "RelativeDocumentMoniker": "Models\\VwPaysInfo.cs",
+              "ToolTip": "C:\\Users\\2483601\\Desktop\\4D5_tp_Final_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel\\Models\\VwPaysInfo.cs",
+              "RelativeToolTip": "Models\\VwPaysInfo.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAwAsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-05T21:17:37.345Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "C:\\Users\\2483601\\Desktop\\4D5_tp_Final_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel\\Views\\Pays\\Details.cshtml",
+              "RelativeDocumentMoniker": "Views\\Pays\\Details.cshtml",
+              "ToolTip": "C:\\Users\\2483601\\Desktop\\4D5_tp_Final_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel\\Views\\Pays\\Details.cshtml",
+              "RelativeToolTip": "Views\\Pays\\Details.cshtml",
+              "ViewState": "AgIAADMAAAAAAAAAAAAAAEUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-21T13:12:29.517Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "InitialCreate.sql ",
+              "DocumentMoniker": "C:\\Users\\2483601\\Desktop\\4D5_tp_Final_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel\\Sql_Scripts\\InitialCreate.sql",
+              "RelativeDocumentMoniker": "Sql_Scripts\\InitialCreate.sql",
+              "ToolTip": "C:\\Users\\2483601\\Desktop\\4D5_tp_Final_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel\\Sql_Scripts\\InitialCreate.sql",
+              "RelativeToolTip": "Sql_Scripts\\InitialCreate.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-04-30T14:31:51.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "V1_5__TraitementDesImages.sql ",
+              "DocumentMoniker": "C:\\Users\\2483601\\Desktop\\4D5_tp_Final_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel\\Sql_Scripts\\V1_5__TraitementDesImages.sql",
+              "RelativeDocumentMoniker": "Sql_Scripts\\V1_5__TraitementDesImages.sql",
+              "ToolTip": "C:\\Users\\2483601\\Desktop\\4D5_tp_Final_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel\\Sql_Scripts\\V1_5__TraitementDesImages.sql",
+              "RelativeToolTip": "Sql_Scripts\\V1_5__TraitementDesImages.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-05-21T16:36:28.203Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IndexVue.cshtml",
+              "DocumentMoniker": "C:\\Users\\2483601\\Desktop\\4D5_tp_Final_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel\\Views\\Pays\\IndexVue.cshtml",
+              "RelativeDocumentMoniker": "Views\\Pays\\IndexVue.cshtml",
+              "ToolTip": "C:\\Users\\2483601\\Desktop\\4D5_tp_Final_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel\\Views\\Pays\\IndexVue.cshtml",
+              "RelativeToolTip": "Views\\Pays\\IndexVue.cshtml",
+              "ViewState": "AgIAABAAAAAAAAAAAAAqwCIAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-19T00:09:55.529Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Commandes.txt",
+              "DocumentMoniker": "C:\\Users\\2483601\\Desktop\\4D5_tp_Final_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel\\Sql_Scripts\\Commandes.txt",
+              "RelativeDocumentMoniker": "Sql_Scripts\\Commandes.txt",
+              "ToolTip": "C:\\Users\\2483601\\Desktop\\4D5_tp_Final_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel\\Sql_Scripts\\Commandes.txt",
+              "RelativeToolTip": "Sql_Scripts\\Commandes.txt",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAAwCEAAAC0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2026-04-30T14:28:33.061Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\2483601\\Desktop\\4D5_tp_Final_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\2483601\\Desktop\\4D5_tp_Final_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-05-05T20:04:47.076Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\2483601\\Desktop\\4D5_tp_Final_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\2483601\\Desktop\\4D5_tp_Final_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABUAAAAAAAAAAAAAACoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-05T20:03:23.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FiltreResultat.cshtml",
+              "DocumentMoniker": "C:\\Users\\2483601\\Desktop\\4D5_tp_Final_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel\\Views\\Pays\\FiltreResultat.cshtml",
+              "RelativeDocumentMoniker": "Views\\Pays\\FiltreResultat.cshtml",
+              "ToolTip": "C:\\Users\\2483601\\Desktop\\4D5_tp_Final_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel\\Views\\Pays\\FiltreResultat.cshtml",
+              "RelativeToolTip": "Views\\Pays\\FiltreResultat.cshtml",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAADoAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-16T19:45:04.569Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\2483601\\Desktop\\4D5_tp_Final_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\2483601\\Desktop\\4D5_tp_Final_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAHAAAAAAAAAAAAAmwIYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2026-05-19T00:27:19.424Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "V1_1__InsertionDonnees.sql",
+              "DocumentMoniker": "C:\\Users\\2483601\\Desktop\\4D5_tp_Final_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel\\Sql_Scripts\\V1_1__InsertionDonnees.sql",
+              "RelativeDocumentMoniker": "Sql_Scripts\\V1_1__InsertionDonnees.sql",
+              "ToolTip": "C:\\Users\\2483601\\Desktop\\4D5_tp_Final_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel\\Sql_Scripts\\V1_1__InsertionDonnees.sql",
+              "RelativeToolTip": "Sql_Scripts\\V1_1__InsertionDonnees.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-05-05T19:43:06Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "BD4D5_Pays_MondeContext.cs",
+              "DocumentMoniker": "C:\\Users\\2483601\\Desktop\\4D5_tp_Final_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel\\Data\\BD4D5_Pays_MondeContext.cs",
+              "RelativeDocumentMoniker": "Data\\BD4D5_Pays_MondeContext.cs",
+              "ToolTip": "C:\\Users\\2483601\\Desktop\\4D5_tp_Final_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel\\Data\\BD4D5_Pays_MondeContext.cs",
+              "RelativeToolTip": "Data\\BD4D5_Pays_MondeContext.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAswBwAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-05T20:31:05.054Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "V1_0__Tables.sql",
+              "DocumentMoniker": "C:\\Users\\2483601\\Desktop\\4D5_tp_Final_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel\\Sql_Scripts\\V1_0__Tables.sql",
+              "RelativeDocumentMoniker": "Sql_Scripts\\V1_0__Tables.sql",
+              "ToolTip": "C:\\Users\\2483601\\Desktop\\4D5_tp_Final_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel\\Sql_Scripts\\V1_0__Tables.sql",
+              "RelativeToolTip": "Sql_Scripts\\V1_0__Tables.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-05-14T19:44:57.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "V1_1_1__TablesFiltres.sql",
+              "DocumentMoniker": "C:\\Users\\2483601\\Desktop\\4D5_tp_Final_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel\\Sql_Scripts\\V1_1_1__TablesFiltres.sql",
+              "RelativeDocumentMoniker": "Sql_Scripts\\V1_1_1__TablesFiltres.sql",
+              "ToolTip": "C:\\Users\\2483601\\Desktop\\4D5_tp_Final_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel\\Sql_Scripts\\V1_1_1__TablesFiltres.sql",
+              "RelativeToolTip": "Sql_Scripts\\V1_1_1__TablesFiltres.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-05-14T19:44:44.663Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Pay.cs",
+              "DocumentMoniker": "C:\\Users\\2483601\\Desktop\\4D5_tp_Final_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel\\Models\\Pay.cs",
+              "RelativeDocumentMoniker": "Models\\Pay.cs",
+              "ToolTip": "C:\\Users\\2483601\\Desktop\\4D5_tp_Final_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel\\Models\\Pay.cs",
+              "RelativeToolTip": "Models\\Pay.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAuwBoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T19:26:38.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ClientsController.cs",
+              "DocumentMoniker": "C:\\Users\\2483601\\Desktop\\4D5_tp_Final_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel\\Controllers\\ClientsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ClientsController.cs",
+              "ToolTip": "C:\\Users\\2483601\\Desktop\\4D5_tp_Final_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel\\Controllers\\ClientsController.cs",
+              "RelativeToolTip": "Controllers\\ClientsController.cs",
+              "ViewState": "AgIAAGkAAAAAAAAAAAAowHMAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T17:24:15.901Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\2483601\\Desktop\\4D5_tp_Final_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\2483601\\Desktop\\4D5_tp_Final_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAABwAAAAAAAAAAAAswFsAAAA5AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-18T23:34:16.101Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "Inscription.cshtml",
+              "DocumentMoniker": "C:\\Users\\2483601\\Desktop\\4D5_tp_Final_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel\\Views\\Clients\\Inscription.cshtml",
+              "RelativeDocumentMoniker": "Views\\Clients\\Inscription.cshtml",
+              "ToolTip": "C:\\Users\\2483601\\Desktop\\4D5_tp_Final_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel\\Views\\Clients\\Inscription.cshtml",
+              "RelativeToolTip": "Views\\Clients\\Inscription.cshtml",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAqwDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-12T17:35:31.769Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\2483601\\Desktop\\4D5_tp_Final_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel\\Views\\Clients\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Clients\\Index.cshtml",
+              "ToolTip": "C:\\Users\\2483601\\Desktop\\4D5_tp_Final_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel\\Views\\Clients\\Index.cshtml",
+              "RelativeToolTip": "Views\\Clients\\Index.cshtml",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAwwCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-12T17:33:25.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Connexion.cshtml",
+              "DocumentMoniker": "C:\\Users\\2483601\\Desktop\\4D5_tp_Final_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel\\Views\\Clients\\Connexion.cshtml",
+              "RelativeDocumentMoniker": "Views\\Clients\\Connexion.cshtml",
+              "ToolTip": "C:\\Users\\2483601\\Desktop\\4D5_tp_Final_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel\\Views\\Clients\\Connexion.cshtml",
+              "RelativeToolTip": "Views\\Clients\\Connexion.cshtml",
+              "ViewState": "AgIAABUAAAAAAAAAAAAwwDAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-12T17:34:10.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "DetailsPays.cshtml",
+              "DocumentMoniker": "C:\\Users\\2483601\\Desktop\\4D5_tp_Final_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel\\Views\\Pays\\DetailsPays.cshtml",
+              "RelativeDocumentMoniker": "Views\\Pays\\DetailsPays.cshtml",
+              "ToolTip": "C:\\Users\\2483601\\Desktop\\4D5_tp_Final_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel\\Views\\Pays\\DetailsPays.cshtml",
+              "RelativeToolTip": "Views\\Pays\\DetailsPays.cshtml",
+              "ViewState": "AgIAABAAAAAAAAAAAAAqwBgAAABDAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-19T21:13:33.295Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "4D5_tp2_Mayssa_Belkamel.csproj",
+              "DocumentMoniker": "C:\\Users\\2483601\\Desktop\\4D5_tp_Final_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel.csproj",
+              "RelativeDocumentMoniker": "4D5_tp2_Mayssa_Belkamel.csproj",
+              "ToolTip": "C:\\Users\\2483601\\Desktop\\4D5_tp_Final_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel.csproj",
+              "RelativeToolTip": "4D5_tp2_Mayssa_Belkamel.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-04-30T14:37:21.488Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\2483601\\Desktop\\4D5_tp_Final_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\2483601\\Desktop\\4D5_tp_Final_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-19T00:40:36.163Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\2483601\\Desktop\\4D5_tp_Final_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\2483601\\Desktop\\4D5_tp_Final_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-19T00:40:44.042Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "FiltrePaysViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\2483601\\Desktop\\4D5_tp_Final_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel\\ViewModel\\FiltrePaysViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\FiltrePaysViewModel.cs",
+              "ToolTip": "C:\\Users\\2483601\\Desktop\\4D5_tp_Final_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel\\ViewModel\\FiltrePaysViewModel.cs",
+              "RelativeToolTip": "ViewModel\\FiltrePaysViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T19:34:47.624Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "V1_3__Utilisateur.sql",
+              "DocumentMoniker": "C:\\Users\\2483601\\Desktop\\4D5_tp_Final_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel\\Sql_Scripts\\V1_3__Utilisateur.sql",
+              "RelativeDocumentMoniker": "Sql_Scripts\\V1_3__Utilisateur.sql",
+              "ToolTip": "C:\\Users\\2483601\\Desktop\\4D5_tp_Final_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel\\Sql_Scripts\\V1_3__Utilisateur.sql",
+              "RelativeToolTip": "Sql_Scripts\\V1_3__Utilisateur.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-05-12T16:44:36.202Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "V1_4__ProcedureInteressante.sql",
+              "DocumentMoniker": "C:\\Users\\2483601\\Desktop\\4D5_tp_Final_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel\\Sql_Scripts\\V1_4__ProcedureInteressante.sql",
+              "RelativeDocumentMoniker": "Sql_Scripts\\V1_4__ProcedureInteressante.sql",
+              "ToolTip": "C:\\Users\\2483601\\Desktop\\4D5_tp_Final_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel\\Sql_Scripts\\V1_4__ProcedureInteressante.sql",
+              "RelativeToolTip": "Sql_Scripts\\V1_4__ProcedureInteressante.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2026-05-12T20:23:00.38Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "PaysFiltreResult.cs",
+              "DocumentMoniker": "C:\\Users\\2483601\\Desktop\\4D5_tp_Final_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel\\Models\\PaysFiltreResult.cs",
+              "RelativeDocumentMoniker": "Models\\PaysFiltreResult.cs",
+              "ToolTip": "C:\\Users\\2483601\\Desktop\\4D5_tp_Final_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel\\Models\\PaysFiltreResult.cs",
+              "RelativeToolTip": "Models\\PaysFiltreResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-14T19:57:01.05Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "ConnexionViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\2483601\\Desktop\\4D5_tp_Final_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel\\ViewModel\\ConnexionViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\ConnexionViewModel.cs",
+              "ToolTip": "C:\\Users\\2483601\\Desktop\\4D5_tp_Final_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel\\ViewModel\\ConnexionViewModel.cs",
+              "RelativeToolTip": "ViewModel\\ConnexionViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T17:30:48.892Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "IncriptionViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\2483601\\Desktop\\4D5_tp_Final_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel\\ViewModel\\IncriptionViewModel.cs",
+              "RelativeDocumentMoniker": "ViewModel\\IncriptionViewModel.cs",
+              "ToolTip": "C:\\Users\\2483601\\Desktop\\4D5_tp_Final_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel\\ViewModel\\IncriptionViewModel.cs",
+              "RelativeToolTip": "ViewModel\\IncriptionViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-05-12T17:25:58.891Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\2483601\\Desktop\\4D5_tp_Final_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel\\Views\\Pays\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\Pays\\Create.cshtml",
+              "ToolTip": "C:\\Users\\2483601\\Desktop\\4D5_tp_Final_Mayssa_Belkamel\\4D5_tp2_Mayssa_Belkamel\\Views\\Pays\\Create.cshtml",
+              "RelativeToolTip": "Views\\Pays\\Create.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-05-12T17:35:00.351Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

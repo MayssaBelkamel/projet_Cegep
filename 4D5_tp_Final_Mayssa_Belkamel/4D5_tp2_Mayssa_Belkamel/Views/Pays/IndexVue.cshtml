@@ -1,0 +1,45 @@
+﻿@model IEnumerable<_4D5_tp2_Mayssa_Belkamel.Models.VwPaysInfo>
+
+@{
+    ViewData["Title"] = "Informations sur les pays";
+}
+
+<h1 class="mb-4 text-center fw-bold">🌍 Informations sur les pays</h1>
+
+<div class="pays-background p-4 rounded shadow-sm">
+
+    <table class="table table-clean">
+        <thead>
+            <tr>
+                <th>@Html.DisplayNameFor(model => model.Pays)</th>
+                <th>@Html.DisplayNameFor(model => model.Continent)</th>
+                <th>@Html.DisplayNameFor(model => model.Capitale)</th>
+                <th>@Html.DisplayNameFor(model => model.NbrLangue)</th>
+                <th>@Html.DisplayNameFor(model => model.NbrClimat)</th>
+                <th></th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Pays</td>
+                    <td>@item.Continent</td>
+                    <td>@item.Capitale</td>
+                    <td>@item.NbrLangue</td>
+                    <td>@item.NbrClimat</td>
+                    
+                <td>
+                    <a asp-action="DetailsPays"
+                       asp-route-id="@item.PaysId"
+                           class="btn-atlas-small">
+                        Voir détails
+                    </a>
+                </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</div>

@@ -1,0 +1,79 @@
+﻿@model _4D5_tp2_Mayssa_Belkamel.ViewModel.FiltrePaysViewModel
+
+<h1 class="mb-4 text-center fw-bold">🌍 Résultats du filtre</h1>
+
+<div class="pays-background p-4 rounded shadow-sm">
+
+    <form method="post" class="mb-4">
+
+        <div class="mb-3">
+            <label class="form-label fw-semibold">Continent :</label>
+            <select name="contientId" class="form-select">
+                <option value="">-- Tous --</option>
+                @foreach (var c in ViewBag.Contients)
+                {
+                    <option value="@c.ContinentId">@c.Nom</option>
+                }
+            </select>
+        </div>
+
+        <div class="mb-3">
+            <label class="form-label fw-semibold">Langue :</label>
+            <select name="Langue" class="form-select">
+                <option value="">-- Toutes --</option>
+                @foreach (var l in ViewBag.Langues)
+                {
+                    <option value="@l.Nom">@l.Nom</option>
+                }
+            </select>
+        </div>
+
+        <div class="form-check mb-3">
+            <input type="checkbox" name="DoitAvoirCapital" value="true" class="form-check-input" id="capitalCheck" />
+            <label class="form-check-label fw-semibold" for="capitalCheck">
+                Doit avoir une capitale
+            </label>
+        </div>
+
+        @if (User.Identity.IsAuthenticated)
+        {
+            <button type="submit" class="btn btn-primary">Rechercher</button>
+        }
+        else
+        {
+            <p class="text-danger mt-3">Veuillez vous connecter pour utiliser le filtre.</p>
+        }
+
+    </form>
+
+    @if (Model.paysFiltreResults != null && Model.paysFiltreResults.Any())
+    {
+        <table class="table table-clean">
+            <thead>
+                <tr>
+                    <th>@Html.DisplayNameFor(m => m.paysFiltreResults.First().NomPays)</th>
+                    <th>@Html.DisplayNameFor(m => m.paysFiltreResults.First().NomContinent)</th>
+                    <th>@Html.DisplayNameFor(m => m.paysFiltreResults.First().Superficie)</th>
+                    <th>@Html.DisplayNameFor(m => m.paysFiltreResults.First().LangueFiltre)</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                @foreach (var pays in Model.paysFiltreResults)
+                {
+                    <tr>
+                        <td>@pays.NomPays</td>
+                        <td>@pays.NomContinent</td>
+                        <td>@pays.Superficie</td>
+                        <td>@pays.LangueFiltre</td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
+    else
+    {
+        <p class="text-muted fst-italic">Aucun résultat trouvé.</p>
+    }
+
+</div>

@@ -1,0 +1,45 @@
+﻿@model _4D5_tp2_Mayssa_Belkamel.ViewModel.DetailsPaysViewModel
+
+<h1 class="text-center fw-bold mb-4">🌍 @Model.pays</h1>
+
+<div class="pays-background p-4 rounded shadow-sm">
+
+    <h4 class="fw-bold">Continent</h4>
+    <p>@Model.Continent</p>
+
+    <h4 class="fw-bold">Capitale</h4>
+    <p>@Model.Capitale</p>
+
+    <h4 class="fw-bold mt-4">🌐 Langues parlées</h4>
+    @if (Model.Langues.Any())
+    {
+        <ul class="list-group mb-3">
+            @foreach (var langue in Model.Langues)
+            {
+                <li class="list-group-item">@langue</li>
+            }
+        </ul>
+    }
+    else
+    {
+        <p class="fst-italic text-muted">Aucune langue trouvée.</p>
+    }
+
+    <h4 class="fw-bold mt-4">🌦️ Climats</h4>
+    @if (Model.Climats.Any())
+    {
+        <ul class="list-group mb-3">
+            @foreach (var climat in Model.Climats)
+            {
+                <li class="list-group-item">@climat</li>
+            }
+        </ul>
+    }
+    else
+    {
+        <p class="fst-italic text-muted">Aucun climat trouvé.</p>
+    }
+
+    <a asp-action="IndexVue" class="btn-atlas mt-3">← Retour à la liste</a>
+
+</div>

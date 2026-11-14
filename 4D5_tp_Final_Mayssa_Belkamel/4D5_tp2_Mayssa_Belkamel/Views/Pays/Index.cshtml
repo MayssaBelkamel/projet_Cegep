@@ -1,0 +1,48 @@
+﻿@model IEnumerable<_4D5_tp2_Mayssa_Belkamel.Models.Pay>
+
+@{
+    ViewData["Title"] = "Liste des pays";
+}
+
+<h1 class="mb-4 text-center fw-bold">🌍 Liste des pays</h1>
+
+<div class="text-end mb-3">
+    <a class="btn-atlas" asp-action="Create">Ajouter un pays</a>
+</div>
+
+<div class="pays-background p-4 rounded shadow-sm">
+
+    <table class ="table table-clean">
+        <thead class="table-primary">
+            <tr>
+                <th>@Html.DisplayNameFor(model => model.Nom)</th>
+                <th>@Html.DisplayNameFor(model => model.Superficie)</th>
+                <th>@Html.DisplayNameFor(model => model.DateIndependance)</th>
+                <th>@Html.DisplayNameFor(model => model.Continent.Nom)</th>
+                <th class="text-center">Actions</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@item.Nom</td>
+                    <td>@item.Superficie</td>
+                    <td>@item.DateIndependance?.ToString("yyyy-MM-dd")</td>
+                    <td>@item.Continent?.Nom</td>
+
+                    <td class="text-center">
+
+                        <a class="btn btn-sm btn-outline-info" asp-action="Details" asp-route-id="@item.PaysId"
+                           class="btn-atlas-small">
+                            Voir détails
+                        </a>
+             
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+</div>
