@@ -1,0 +1,82 @@
+/* Centre le formulaire au milieu de l'écran avec un fond sombre */
+:host {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #333333; /* Fond très sombre de la page */
+  color: #fff;
+  font-family: sans-serif;
+}
+
+/* Conteneur principal gris foncé pour le formulaire */
+.register-container {
+  background-color: #444444; /* Fond gris foncé de l'encadré */
+  padding: 2rem 1.5rem;
+  border-radius: 4px;
+  width: 90%;
+  max-width: 600px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+/* Force l'alignement vertical des éléments du formulaire */
+.vertical-form {
+  display: flex;
+  flex-direction: column; /* Force le haut vers le bas */
+  gap: 1.2rem;            /* Espace constant entre les champs */
+}
+
+/* Style des champs de saisie */
+.vertical-form input {
+  padding: 0.8rem 1rem;
+  background-color: #555555; /* Fond des champs plus clair */
+  border: none;
+  border-radius: 2px;
+  color: #fff;
+  font-size: 1rem;
+}
+
+/* Style des labels au-dessus des champs */
+.vertical-form label {
+  color: #aaaaaa;
+  font-size: 0.9rem;
+  margin-bottom: 0.2rem;
+  display: block;
+}
+
+/* Style des conteneurs de champ (pour l'organisation) */
+.form-group {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Bouton 'Enregistrer' */
+.btn-enregistrer {
+  padding: 0.6rem 1.2rem;
+  background-color: #666666; /* Couleur grise */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  align-self: flex-start;  /* Aligné à gauche */
+  font-weight: bold;
+}
+
+/* Bouton 'Connecter' à l'extérieur */
+.btn-connecter {
+  margin-top: 1.5rem;
+  padding: 0.8rem 1.5rem;
+  background-color: #55cca2; /* Couleur verte */
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+/* Style du bouton désactivé */
+.btn-enregistrer:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}

@@ -1,0 +1,16 @@
+.button{
+    padding: 5px;
+}
+
+.toolbar-btn {
+    margin-right: 10px;
+}
+
+.toolbar-btn:last-of-type {
+    margin-right: 0;
+}
+
+.debugger-btn {
+    margin: 0 10px;
+    padding: 2px;
+}

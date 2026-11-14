@@ -1,0 +1,46 @@
+
+
+<label>Trier par:</label>
+
+<div class="select-container">
+
+  <mat-form-field appearance="fill" class="custom-select">
+
+    <mat-label>Champ</mat-label>
+
+    <mat-select [(value)]="champTri" (selectionChange)="trierCartes()">
+
+      <mat-option value="mana">Coût en Mana</mat-option>
+      <mat-option value="attaque">Attaque</mat-option>
+      <mat-option value="vie">Points de vie</mat-option>
+
+    </mat-select>
+
+  </mat-form-field>
+
+
+  <mat-form-field appearance="fill" class="custom-select" >
+
+    <mat-label>Ordre</mat-label>
+
+    <mat-select [(value)]="ordreTri" (selectionChange)="trierCartes()">
+
+      <mat-option value="dec">Décroissant</mat-option>
+      <mat-option value="cro">Croissant</mat-option>
+
+    </mat-select>
+
+  </mat-form-field>
+
+</div>
+
+
+<div class="cartes">
+<app-card
+*ngFor="let carte of listeCartes"
+
+[card]="carte">
+
+</app-card>
+</div>
+

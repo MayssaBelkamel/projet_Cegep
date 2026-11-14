@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UFC - Enregistrement</title>
+    <link rel="stylesheet" href="/src/app/components/register/register.component.css">
+</head>
+<body>
+
+
+  
+<div class="register-container">
+  <form [formGroup]="registerForm" (ngSubmit)="onEnregistrer()" class="vertical-form">
+    
+    <div class="form-group">
+      <label>Nom d'utilisateur</label>
+      <input formControlName="username" type="text">
+      <small class="error" *ngIf="registerForm.get('username')?.touched && registerForm.get('username')?.hasError('required')">
+        Le nom d'utilisateur est requis.
+      </small>
+      <small class="error" *ngIf="registerForm.get('username')?.hasError('alreadyExists')">
+        Cet utilisateur existe déjà.
+      </small>
+    </div>
+
+    <div class="form-group">
+      <label>Courriel</label>
+      <input formControlName="email" type="email">
+      <small class="error" *ngIf="registerForm.get('email')?.touched && registerForm.get('email')?.hasError('required')">
+        L'adresse courriel est requise.
+      </small>
+      <small class="error" *ngIf="registerForm.get('email')?.touched && registerForm.get('email')?.hasError('email')">
+        Le format du courriel est invalide.
+      </small>
+    </div>
+
+    <div class="form-group">
+      <label>Mot de passe</label>
+      <input formControlName="password" type="password">
+      <small class="error" *ngIf="registerForm.get('password')?.touched && registerForm.get('password')?.hasError('required')">
+        Le mot de passe est requis.
+      </small>
+      <small class="error" *ngIf="registerForm.get('password')?.dirty && registerForm.get('password')?.hasError('minlength')">
+        Le mot de passe doit faire au moins 6 caractères.
+      </small>
+      <small class="error" *ngIf="registerForm.get('password')?.hasError('pattern')">
+        Un caractère spécial est requis.
+      </small>
+    </div>
+
+    <div class="form-group">
+      <label>Confirmation du mot de passe</label>
+      <input formControlName="confirmPassword" type="password">
+      <small class="error" *ngIf="registerForm.get('confirmPassword')?.touched && registerForm.get('confirmPassword')?.hasError('required')">
+        Veuillez confirmer votre mot de passe.
+      </small>
+      <small class="error" *ngIf="registerForm.get('confirmPassword')?.hasError('passwordMismatch')">
+        Les mots de passe ne correspondent pas.
+      </small>
+    </div>
+
+    <button type="submit" [disabled]="registerForm.invalid">S'inscrire</button>
+  </form>
+</div>
+
+<button class="btn-connecter" routerLink="/login">
+  Connecter
+</button>
+</body>
+</html>

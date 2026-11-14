@@ -1,0 +1,18 @@
+<div class="search-dialog" *ngIf="rechercheMatch">
+<div class="dialog-content">
+    <h2>Recherche d'un adversaire...</h2>
+    <p>Veuillez patienter</p>
+    <button class="cancel-btn" (click)="cancelMatchSearch()">Annuler</button>
+</div>
+</div>
+
+<div style="display: flex; margin: 20px; justify-content: center;">
+
+    <button class="home-btn" [routerLink]="['/home/mesCartes']" style="background-color:cornflowerblue">Mes cartes</button>
+    <button class="home-btn" [routerLink]="['/home/allCards']" style="background-color:red">Le magasin</button>
+
+    
+    <button mat-raised-button color="accent" style="margin-right: 20px;" (click)="joinMatch()" [disabled]="!accService.isLoggedIn() || rechercheMatch">Joindre une partie</button>
+</div>
+<router-outlet></router-outlet>
+

@@ -1,0 +1,23 @@
+
+@if (matchService.match == null) {
+<mat-toolbar style="display: flex;">
+  <mat-icon style="margin-right: 8px" routerLink="/home">class</mat-icon>
+  <a routerLink="/home"><span>Super Cartes Infinies</span></a>
+  <span style="flex: 1 1 auto;"></span>
+  @if (accService.isLoggedIn()) {
+  <mat-chip style="margin-right: 20px;">
+    {{getUsername()}}
+  </mat-chip>
+  }
+   
+    @if (!accService.isLoggedIn()) {
+        <button class="toolbar-btn" mat-raised-button color="warn" routerLink="/login">Login</button>
+        <button class="toolbar-btn" mat-raised-button color="warn" routerLink="/register">Register</button>
+    }
+  <a class="debugger-btn" routerLink="event-debugger" mat-mini-fab color="accent" (click)="privateData()"><mat-icon>bug_report</mat-icon></a>
+  @if (accService.isLoggedIn()) {
+  <button class="toolbar-btn" mat-raised-button color="warn" (click)="logout()" routerLink="/login">Se déconnecter</button>
+  }
+</mat-toolbar>
+}
+<router-outlet></router-outlet>

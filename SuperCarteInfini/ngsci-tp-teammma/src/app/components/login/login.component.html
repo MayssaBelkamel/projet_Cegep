@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page de Connexion</title>
+</head>
+<body>
+ <div class="login-wrapper">
+  <div class="login-container">
+    <form [formGroup]="loginForm" (ngSubmit)="onLogin()" class="vertical-form">
+      
+      <div class="form-group">
+        <label>Nom d'utilisateur</label>
+        <input type="text" formControlName="username" placeholder="Entrez votre nom">
+          <small class="error" *ngIf="loginForm.get('username')?.touched && loginForm.get('username')?.hasError('required')">
+          Le nom d'utilisateur est requis.
+          </small>
+      </div>
+
+      <div class="form-group">
+        <label>Mot de passe</label>
+        <div class="input-with-icon">
+          <input type="password" formControlName="password" placeholder="Mot de passe">
+            <small class="error" *ngIf="loginForm.get('password')?.touched && loginForm.get('password')?.hasError('required')">
+            Le mot de passe est requis.
+            </small>
+          <span class="material-icons eye-icon">visibility_off</span>
+        </div>
+      </div>
+
+      <button type="submit" class="btn-secondary" [disabled]="loginForm.invalid">
+        Connecter
+      </button>
+    </form>
+  </div>
+
+  <button class="btn-primary-action" routerLink="/register">
+    Enregistrer
+  </button>
+</div>
+
+<button class="btn-connecter" routerLink="/register">
+  Créer un compte
+</button>
+
+
+    <button type="button" class="btn-enregistrer" routerLink="/register">Enregistrer</button>
+    <script>
+        const toggleIcon = document.getElementById('toggle-icon');
+        const passwordInput = document.getElementById('password-input');
+
+        toggleIcon.addEventListener('click', function () {
+            // Bascule le type de l'input entre 'password' et 'text'
+            const type = passwordInput.getAttribute('type') === 'password' ? 'text' : 'password';
+            passwordInput.setAttribute('type', type);
+
+        });
+    </script>
+
+</body>
+</html>
