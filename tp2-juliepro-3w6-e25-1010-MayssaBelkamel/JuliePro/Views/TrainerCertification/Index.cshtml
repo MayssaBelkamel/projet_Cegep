@@ -1,0 +1,124 @@
+@model IEnumerable<JuliePro.Models.TrainerCertification>
+
+ <script>
+    // TODO: Ajouter la méthode highlightByName()
+  
+      
+    function highlightByName() {
+        
+        let table=document.getElementById("table1");    
+        let lignes=table.getElementsByTagName("tr");
+
+
+        let texte = document.createElement("p");
+        texte.innerHTML = document.getElementById("test").value;
+
+           for(let i=1;i<lignes.length;i++)
+           {
+             let nom=document.createElement("p");
+             nom.innerHTML=lignes[i].getElementsByTagName("td")[0].textContent;
+               
+            if(nom.innerHTML.toUpperCase().includes(texte.innerHTML.toUpperCase()) && texte.innerHTML.trim()!=""){
+
+          
+                lignes[i].style.backgroundColor = "yellow";
+            }
+            else {
+                lignes[i].style.backgroundColor = "white";
+            }
+           }          
+    }
+   
+  
+   
+
+
+    // TODO: Ajouter la méthode filterByDate()
+    function filterByDate(){
+
+        let texte = document.getElementById("date");
+        let date = texte.valueAsDate;
+
+        let table = document.getElementById("table1");
+        let lignes = table.getElementsByTagName("tr");
+
+
+        for (let i = 1; i < lignes.length; i++) {
+
+            let nom = new Date(lignes[i].getElementsByTagName("td")[2].textContent);
+            
+            
+            console.log(date);
+            console.log(lignes[i].textContent);
+
+            if (nom<date) {
+
+                lignes[i].style.display = 'none';
+            }
+            
+            else{
+              lignes[i].style.display = '';
+            }
+           
+        }
+    }
+
+
+</script>
+
+@{
+    ViewData["Title"] = @Locals["Index"];
+}
+
+<h1>@Locals["Index"]</h1>
+
+<p>
+    <a asp-action="Create">@Locals["Create New"]</a>
+</p>
+
+<h4>@Locals["HighlightByName"]</h4>
+<input id="test" type="text" oninput="highlightByName()" />
+
+<h4>@Locals["FilterByDate"]</h4>
+<input id="date" type="date" />
+<button onclick="filterByDate()" class="btn btn-primary">@Locals["Filter"]</button>
+
+<table class="table" id="table1">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Trainer)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Certification)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DateCertification)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td class="nom" id="toto">
+                 <a asp-action="Filter" asp-controller="Trainer" asp-route-SearchNameText="@item.Trainer.FullName">
+                    @Html.DisplayFor(modelItem => item.Trainer.FullName)
+                </a>
+            </td>
+            <td>
+                <a asp-action="Details" asp-controller="Certification" asp-route-id="@item.Certification_Id">   @Html.DisplayFor(modelItem => item.Certification.FullTitle) </a>
+            </td>
+            <td>
+                @item.DateCertification.ToShortDateString()
+            </td>
+            <td>
+
+                <a asp-action="Edit" asp-route-id="@item.Id">@Locals["Edit"]</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">@Locals["Details"]</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">@Locals["Delete"]</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
