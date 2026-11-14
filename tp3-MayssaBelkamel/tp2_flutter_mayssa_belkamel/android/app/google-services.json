@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "323113390820",
+    "project_id": "mayssatp3",
+    "storage_bucket": "mayssatp3.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:323113390820:android:b4dac0e873412c5f7d12f1",
+        "android_client_info": {
+          "package_name": "org.belkamel.tp1_flutter_mayssabelkamel"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "323113390820-k7eoc491kuas6su3ui25h6haspihnsak.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "org.belkamel.tp1_flutter_mayssabelkamel",
+            "certificate_hash": "950f01c65b7c00ceed799e862422fbd5a0468de5"
+          }
+        },
+        {
+          "client_id": "323113390820-at7h1t1if0clldjmkhe51lop7ollu2t8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANUP7-ERl7o1YwhULLyEnhcYNUJlSsb3s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "323113390820-at7h1t1if0clldjmkhe51lop7ollu2t8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "323113390820-9boegcijlj08r1rsfdvp1u8h32m9d7s1.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.belkamel.tp1FlutterMayssabelkamel"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
